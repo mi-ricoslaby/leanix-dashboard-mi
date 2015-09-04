@@ -35,3 +35,8 @@ The code for "master" branch will be published in https://leanix.github.io/leani
 ### git post-commit hook
 
 Create an executable file under .git/hooks/post-commit from https://gist.github.com/bonndan/42cecfc5c5f4936321ce
+
+
+## License
+
+This project is MIT-licensed. See http://leanix.mit-license.org/
