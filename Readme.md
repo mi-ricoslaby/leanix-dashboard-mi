@@ -20,11 +20,11 @@ then run
 
 `./node_modules/bower/bin/bower install --config.interactive=false;`
 
-Then start the build with `brunch build`. Start the web server with `node server.js`.
+Start the web server with `gulp serve`.
 
 ## Deploy a new version (develop or master branch)
 
-The code for "master" branch will be published in https://leanix.github.io/leanix-dashboard-as/master.
+The code for __"master"__ branch will be published in https://leanix.github.io/leanix-dashboard-as/master.
 
 ### using git post-commit hook
 
