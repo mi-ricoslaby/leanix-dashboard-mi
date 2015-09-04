@@ -24,18 +24,21 @@ Then start the build with `brunch build`. Start the web server with `node server
 
 ## Deploy a new version (develop or master branch)
 
-* create a post-commit hook (see below)
+The code for "master" branch will be published in https://leanix.github.io/leanix-dashboard-as/master.
+
+### using git post-commit hook
+
+* create a post-commit hook (an executable file under .git/hooks/post-commit from build.sh)
 * build for production `gulp build`
 * commit (hooks runs afterwards)
 * `git push` (pushes both your branch and the gh-pages branch)
 
-The code for "master" branch will be published in https://leanix.github.io/leanix-dashboard-as/master.
+### without hooks
 
-
-### git post-commit hook
-
-Create an executable file under .git/hooks/post-commit from https://gist.github.com/bonndan/42cecfc5c5f4936321ce
-
+* build for production `gulp build`
+* commit (hooks runs afterwards)
+* run build.sh
+* `git push` (pushes both your branch and the gh-pages branch)
 
 ## License
 
