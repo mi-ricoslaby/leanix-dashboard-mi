@@ -1,4 +1,4 @@
-# LeanIX Custom Dashboard by AxelSpringer
+# LeanIX Custom Dashboard by movingimage
 
 This project is a custom dashboard for [LeanIX EAM](https://www.leanix.net/en/product/knowledge) which gives an overview on certain Fact Sheets from data gathered form the API. It can be plugged in "out of the box".
 
